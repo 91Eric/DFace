@@ -91,6 +91,7 @@ mkdir {your dface traindata folder}
 ```shell
 python dface/prepare_data/gen_Pnet_train_data.py --prefix_path {注解文件中图片的目录前缀,就是wider face图片所在目录} --dface_traindata_store {之前创建的dface训练数据临时目录}　--anno_file {wider face 注解文件,可以不填，默认使用anno_store/wider_origin_anno.txt}
 ```
+> 这里的 prefix_path 必须是WIDER_train(val)
 * 乱序合并标注文件
 
 ```shell
